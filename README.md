@@ -23,7 +23,8 @@ If you use our codes in your research, please cite:
 
 In AIoT-enabled systems, log-based anomaly detection is critical for ensuring system security and reliability. Existing methods struggle with the concurrent, interleaved nature of logs from modern software systems and often neglect context information in log headers and parameters. To address these limitations, we propose LogHGAD, a novel log anomaly detection method based on hypergraph modeling. LogHGAD partitions logs into session windows using identifiers and constructs a hypergraph where nodes represent log events (with semantic embeddings as features) and hyperedges capture both temporal sequences and complex multivariate interactions (e.g., between processes, components, and entities). It uniquely integrates log header information (e.g., PID, component) and log parameters into the model. An end-to-end framework using a hypergraph convolutional network learns structural embeddings, fuses them with semantic features, and employs downstream classifiers for detection. Extensive experiments on five real-world log datasets demonstrate that LogHGAD outperforms seven state-of-the-art baselines in accuracy, precision, recall, specificity, and F1-Score, while maintaining practical efficiency.
 
-<img width="5376" height="1891" alt="Figure_5" src="https://github.com/user-attachments/assets/db4c455d-b01a-4bfd-b075-0d776cd5954f" />
+<img width="5376" height="1891" alt="overview" src="https://github.com/user-attachments/assets/ab7828c8-b4f2-4576-b6bb-3e5f6b9cf99d" />
+
 
 
 # Running
